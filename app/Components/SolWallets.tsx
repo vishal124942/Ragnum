@@ -271,10 +271,10 @@ const SolWallets = () => {
                         </motion.button>
                       </div>
                     </div>
-                    <p className="font-mono text-sm break-all bg-gray-50 p-3 rounded-lg border border-gray-100">
+                    <p className="font-mono text-sm xs:text-xs break-all truncate max-w-full bg-gray-50 p-3 rounded-lg border border-gray-100">
                       {showPrivateKeys[wallet.public_key]
                         ? wallet.private_key
-                        : "••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"}
+                        : "•".repeat(64)}
                     </p>
                   </div>
                 </motion.div>
