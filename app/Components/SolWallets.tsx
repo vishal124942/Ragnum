@@ -178,7 +178,7 @@ const SolWallets = () => {
             <div className="flex flex-col items-center">
               <Wallet size={48} className="text-gray-400 mb-4" />
               <p className="text-gray-600 mb-6">
-                No wallets added yet. Click Add Wallet to create one.
+                No wallets added ,add wallets to start using the app
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
